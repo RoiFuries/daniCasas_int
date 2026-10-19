@@ -263,6 +263,20 @@ figcaption {
   position: relative;
 }
 
+@media screen and (min-width: 768px) {
+  .nav.end {
+    justify-content: flex-end;
+  }
+
+  .nav.end .nav-link {
+    margin-right: 0;
+  }
+
+  .nav.end .nav-link:not(.right) {
+    margin-left: 6em;
+  }
+}
+
 .nav-link.right {
   margin-left: auto;
   margin-right: 0;
@@ -452,6 +466,30 @@ figcaption {
 
 .bg-image.bg_snickers {
   background-image: url('../images/01_Snickers_A.jpg');
+}
+
+.bg-image.bg_heineken {
+  background-image: url('../images/00_Projects/01_HeinekenElNortedeMexico/HeinekenElNortedeMexico_1.jpg');
+}
+
+.bg-image.bg_amex {
+  background-image: url('../images/00_Projects/02_AmexPlaneatuPago/AmexPlaneatuPago_1.jpg');
+}
+
+.bg-image.bg_cartablanca {
+  background-image: url('../images/00_Projects/03_CartaBlancaChiquitiShow/CartaBlancaChiquitiShow_1.jpg');
+}
+
+.bg-image.bg_koltin {
+  background-image: url('../images/00_Projects/04_KoltinHagamoselGranAmor/KoltinHagamoselGranAmor_1.jpg');
+}
+
+.bg-image.bg_oxxo {
+  background-image: url('../images/00_Projects/05_OXXO_SiempreHayunOxxo/05_OXXO_SiempreHayunOxxo_1.jpg');
+}
+
+.bg-image.bg_nu {
+  background-image: url('../images/00_Projects/06_NUNuestoCorridoCumpleanero/NUNuestoCorridoCumpleanero_1.jpg');
 }
 
 .bg-image.bg_plata {
@@ -804,6 +842,23 @@ figcaption {
   width: 100%;
   height: 26vw;
   display: flex;
+}
+
+.vimeo-work {
+  position: relative;
+  overflow: hidden;
+}
+
+.vimeo-work iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 56.25vw;
+  min-width: 100%;
+  border: 0;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 .arrow {
