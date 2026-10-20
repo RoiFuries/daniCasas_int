@@ -505,6 +505,18 @@ figcaption {
   background-image: url('../images/00_Projects/06_NUNuestoCorridoCumpleanero/NUNuestoCorridoCumpleanero_1.jpg');
 }
 
+.bg-image.bg_vocesnati {
+  background-image: url('../images/00_Projects/00_Films/vocesDeMexico/vocesDeMexico_1.jpg');
+}
+
+.bg-image.bg_notodos {
+  background-image: url('../images/00_Projects/00_Films/NoTodosSeVan/NoTodosSeVan_1.jpg');
+}
+
+.bg-image.bg_vocescampito {
+  background-image: url('../images/00_Projects/00_Films/VocesDeMexicoElCampito/VocesDeMexicoElCampito_1.jpg');
+}
+
 .bg-image.bg_plata {
   background-image: url('../images/01_Plata.jpg');
 }
