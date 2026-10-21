@@ -886,6 +886,10 @@ figcaption {
   pointer-events: none;
 }
 
+.vimeo-work.vimeo-zoom iframe {
+  transform: translate(-50%, -50%) scale(1.04);
+}
+
 .arrow {
   object-fit: contain;
   width: 1.25em;
