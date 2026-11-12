@@ -517,6 +517,10 @@ figcaption {
   background-image: url('../images/00_Projects/00_Films/VocesDeMexicoElCampito/VocesDeMexicoElCampito_1.jpg');
 }
 
+.bg-image.bg_hyundai {
+  background-image: url('../images/00_Projects/07_Hyundai/Hyundai_1.jpg');
+}
+
 .bg-image.bg_plata {
   background-image: url('../images/01_Plata.jpg');
 }
